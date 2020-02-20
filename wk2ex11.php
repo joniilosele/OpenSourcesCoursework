@@ -1,24 +1,33 @@
 <?php
-  $topmodules[0] = "Internet Systems Development";
-  $topmodules[5] = "Programming 1";
-  $topmodules[10] = "Programming 2";
-  $topmodules[30] = "OOAD";
-  $topmodules[40] = "Software Engineering";
+  $mymarks[0] = ["44"] = CO451;
+  $mymarks[1] = ["42.5"] = CO452;
+  $mymarks[2] = ["48"] = CO453;
+  $mymarks[3] = ["40"] = CO455;
+  $mymarks[4] = ["50"] = CO456;
+  $mymarks[5] = ["85"] = CO457;
 
-  while(list($index, $value) = each($topmodules))
+$total = 0;
+$total = $total + $mymarks[$index];
+$average = $total /  6;
+
+  while(list($index, $total) = each($mymarks))
   {
-    echo "Index is $index  and value is $value <br/>";
-  }
-?>
+ echo "For $index my grade was $total .<br/>";
+ }
+ echo "<br/> My best year was Year 3 when I averaged ". $mymarks["CO457 - B M"];
 
-<?php
-  $mymarks["year 1"] = 55;
-  $mymarks["year 2"] = 65;
-  $mymarks["year 3"] = 75;
+ // for($total = 0; $total = $total + $mymarks[$index]; $average = $total /  6;)
+ // {
+ //   echo "$total module is $mymarks[$total] <br/>";
+ // }	
+ // echo "<br/> My best year was Year 3 when I averaged ". $mymarks[$index];
 
-  while(list($index,$value) = each($mymarks))
-  {
-    echo "For $index my grade was  $value .<br/>";
-  }
-  echo "<br/> My best year was Year 3 when I averaged ". $mymarks["year 3"];
+ // <html>
+ // <head>
+ // <body>
+ //     <p> My gross wage is <?php print("$gross");
+ // </body>
+ //</head>
+ // </html>
+
 ?>
