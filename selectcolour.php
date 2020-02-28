@@ -9,8 +9,10 @@
 	  <option>red</option>
 	  <option>yellow</option>
 	  <option>green</option>
-	  <option>blue</option>
-        </select>
+	  <option>orange</option>
+	  <option>darkgray</option>
+
+  </select>
         <br/><br/>	
         <input type="submit" value="Buy"/>
       </form>
