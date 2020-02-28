@@ -1,4 +1,4 @@
-<? $cookieName = 'accountNumber';
+<? $cookieName ='accountNumber';
 setcookie($cookieName, $_POST[txtaccount]); ?>
 <? echo "Your account is $_POST[txtaccount]"; ?>
 <form action="confirmDeposit.php" method="post">
