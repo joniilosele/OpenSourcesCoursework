@@ -5,4 +5,4 @@ $myage = "None of your business <br/>";
 	print($myage . "<br/>");
 	$myage = 21.75;
 	print($myage);
-?>	
+?>
